@@ -3,21 +3,44 @@
 <head>
   <title>Profil Yanto</title>
 
-  <!-- Icon Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
       background-color: #f2f2f2;
+      scroll-behavior: smooth;
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      background: #008000;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
     }
 
     .card {
       background: white;
       width: 300px;
-      margin: 60px auto;
+      margin: auto;
       padding: 20px;
-      text-align: center;
       border-radius: 10px;
     }
 
@@ -26,10 +49,6 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      margin-bottom: 15px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
     }
 
     .btn {
@@ -42,48 +61,57 @@
       font-size: 14px;
     }
 
-    .wa {
-      background-color: #25D366;
-    }
+    .wa { background-color: #25D366; }
+    .ig { background-color: #E1306C; }
 
-    .wa:hover {
-      background-color: #1ebe5d;
-    }
-
-    .ig {
-      background-color: #E1306C;
-    }
-
-    .ig:hover {
-      background-color: #c41c5a;
-    }
-
-    @media (max-width: 600px) {
-      .card {
-        width: 90%;
-        margin: 30px auto;
-      }
+    footer {
+      background: #222;
+      color: white;
+      padding: 15px;
+      text-align: center;
     }
   </style>
 </head>
-
 <body>
 
-  <div class="card">
-    <img src="https://via.placeholder.com/120" class="profile-img">
-    <h1>Yanto</h1>
-    <p>Web developer pemula yang lagi belajar coding.</p>
+  <!-- MENU -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <a href="https://wa.me/6283128557385" class="btn wa" target="_blank">
+  <!-- HOME -->
+  <section id="home">
+    <div class="card">
+      <img src="https://via.placeholder.com/120" class="profile-img">
+      <h1>Yanto</h1>
+      <p>Web developer pemula yang lagi belajar coding.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya sedang belajar HTML & CSS dan ingin menjadi web developer profesional.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Hubungi Saya</h2>
+
+    <a href="https://wa.me/6281234567890" class="btn wa" target="_blank">
       <i class="fab fa-whatsapp"></i> WhatsApp
     </a>
 
-    <a href="https://instagram.com/hendriyanto9" class="btn ig" target="_blank">
+    <a href="https://instagram.com/usernamekamu" class="btn ig" target="_blank">
       <i class="fab fa-instagram"></i> Instagram
     </a>
-  </div>
+  </section>
+
+  <footer>
+    © 2026 Yanto | Dibuat dengan semangat belajar 🔥
+  </footer>
 
 </body>
-  </html>
-
-   
+</html>
