@@ -102,6 +102,21 @@
 .ig {
   background-color: #E1306C;
       }
+
+    .project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
   </style>
 </head>
 
@@ -113,8 +128,9 @@
 
     <div class="menu" id="menu">
       <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+<a href="#about">About</a>
+<a href="#project">Project</a>
+<a href="#contact">Contact</a>
     </div>
   </nav>
 
@@ -129,7 +145,28 @@
     <h2>Tentang Saya</h2>
     <p>Saya sedang belajar HTML & CSS dan ingin jadi developer profesional.</p>
   </section>
+  
+<section id="project">
+  <h2>Project Saya</h2>
 
+  <div class="project-container">
+    <div class="project-card">
+      <h3>Website Profil</h3>
+      <p>Website profil pribadi menggunakan HTML & CSS.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Landing Page Produk</h3>
+      <p>Halaman promosi produk sederhana dan responsif.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Design UI Sederhana</h3>
+      <p>Latihan membuat tampilan modern dan clean.</p>
+    </div>
+  </div>
+</section>
+  
   <section id="contact">
   <h2>Hubungi Saya</h2>
 
