@@ -334,7 +334,7 @@ Bingung promosi bisnis karena belum punya website profesional?
     reveals.forEach(function(section) {
       var windowHeight = window.innerHeight;
       var sectionTop = section.getBoundingClientRect().top;
-      var revealPoint = 100;
+      var revealPoint = 150;
 
       if (sectionTop < windowHeight - revealPoint) {
         section.classList.add("active");
@@ -343,6 +343,7 @@ Bingung promosi bisnis karena belum punya website profesional?
   }
 
   window.addEventListener("scroll", revealOnScroll);
+  window.addEventListener("load", revealOnScroll);
 </script>
 </body>
 </html>
