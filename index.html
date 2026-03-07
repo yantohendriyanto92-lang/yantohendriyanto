@@ -142,12 +142,17 @@
 .hero h1 {
   font-size: 48px;
   font-weight: bold;
-  }
+  } 
+    margin-bottom: 15px;
+  animation: fadeUp 1s ease forwards;
+      }
 
 .hero p {
   font-size: 18px;
   margin-bottom: 25px;
 }
+      animation: fadeUp 1.5s ease forwards;
+    
 
 .cta {
   display: inline-block;
@@ -268,6 +273,17 @@
 .wa-float:hover {
   background: #20b358;
   }
+
+    @keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
   </style>
 </head>
