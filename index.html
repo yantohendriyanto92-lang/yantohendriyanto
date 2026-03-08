@@ -284,6 +284,49 @@
   }
 }
 
+    #skills{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.skill{
+  max-width:500px;
+  margin:20px auto;
+  text-align:left;
+}
+
+.skill-bar{
+  background:#ddd;
+  height:10px;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.skill-fill{
+  height:10px;
+  background:#008000;
+  width:0;
+  animation:fillSkill 2s forwards;
+}
+
+.skill-fill.html{
+  width:90%;
+}
+
+.skill-fill.css{
+  width:80%;
+}
+
+.skill-fill.js{
+  width:60%;
+}
+
+@keyframes fillSkill{
+  from{
+    width:0;
+  }
+  }
+
   </style>
 </head>
 
@@ -312,6 +355,31 @@
   <section id="about" class="reveal">
     <h2>Tentang Saya</h2>
     <p>Saya sedang belajar HTML & CSS dan ingin jadi developer profesional.</p>
+  </section>
+
+  <section id="skills" class="reveal">
+  <h2>Skill Saya</h2>
+
+  <div class="skill">
+    <p>HTML</p>
+    <div class="skill-bar">
+      <div class="skill-fill html"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>CSS</p>
+    <div class="skill-bar">
+      <div class="skill-fill css"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>JavaScript</p>
+    <div class="skill-bar">
+      <div class="skill-fill js"></div>
+    </div>
+  </div>
   </section>
   
 <section id="project" class="reveal">
