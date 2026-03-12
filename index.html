@@ -111,18 +111,21 @@
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   max-width: 900px;
   margin: auto;
   padding: 20px;
+  justify-items: center;
 }
 
 .project-card {
   background: white;
-  width: 280px;
+  width: 100%;
+  max-width: 250px;
   padding: 25px;
   border-radius: 15px;
+}
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
   transition: 0.3s;
     }
