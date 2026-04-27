@@ -2,54 +2,55 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <title>Jasa Website UMKM | Yanto</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jasa Pembuatan Website UMKM</title>
 
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #0f172a;
-      color: #fff;
+      font-family: Arial, sans-serif;
+      background: #0b1a2c;
+      color: white;
       text-align: center;
     }
 
     section {
-      padding: 60px 20px;
+      padding: 50px 20px;
     }
 
-    h1, h2, h3 {
-      margin-bottom: 10px;
+    h1, h2 {
+      margin-bottom: 20px;
     }
 
     p {
-      color: #cbd5e1;
+      color: #ccc;
     }
 
-    /* CTA */
-    .cta-big {
+    /* BUTTON */
+    .btn, .cta-big {
       display: inline-block;
-      margin-top: 20px;
-      padding: 15px 25px;
       background: #22c55e;
       color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 10px;
+      margin-top: 15px;
       font-weight: bold;
     }
 
-    /* Project */
+    /* PROJECT */
     .project-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
-      margin-top: 30px;
+      max-width: 1100px;
+      margin: auto;
     }
 
     .project-card {
-      background: #1e293b;
-      padding: 20px;
-      border-radius: 12px;
+      background: #13263d;
+      padding: 15px;
+      border-radius: 10px;
     }
 
     .project-img {
@@ -57,30 +58,36 @@
       border-radius: 10px;
     }
 
-    /* CTA Tengah */
-    .cta-mid {
-      margin-top: 50px;
-    }
-
-    /* Testimoni */
+    /* TESTIMONI */
     .testimonial-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
 
     .testimonial-card {
-      background: #1e293b;
+      background: #13263d;
       padding: 20px;
-      border-radius: 12px;
+      border-radius: 10px;
     }
 
-    /* Footer */
+    /* PRICING */
+    .pricing {
+      background: #13263d;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+    }
+
     footer {
       padding: 20px;
-      background: #020617;
-      font-size: 14px;
+      background: #081321;
+      margin-top: 30px;
     }
+
   </style>
 </head>
 
@@ -88,24 +95,23 @@
 
 <!-- HERO -->
 <section>
-  <h1>Saya membantu UMKM memiliki website profesional</h1>
-  <p>Agar bisnis terlihat lebih terpercaya, mudah ditemukan, dan meningkatkan penjualan.</p>
+  <h1>Website untuk UMKM mulai 500 ribu</h1>
+  <p>Bikin bisnis Anda terlihat profesional & lebih dipercaya pelanggan</p>
 
   <a href="https://wa.me/6283128557385" class="cta-big">
-    Konsultasi Gratis via WhatsApp
+    Chat Sekarang (Slot Terbatas Hari Ini)
   </a>
 </section>
 
 <!-- MASALAH -->
 <section>
   <h2>Apakah bisnis Anda mengalami ini?</h2>
-
-  <p>• Pelanggan sering bertanya harga & menu berulang</p>
+  <p>• Pelanggan sering tanya harga berulang</p>
   <p>• Bisnis terlihat kurang profesional</p>
   <p>• Sulit dipercaya pelanggan baru</p>
-  <p>• Hanya mengandalkan Instagram untuk jualan</p>
+  <p>• Hanya mengandalkan Instagram</p>
 
-  <p><b>Website bisa menjadi solusi untuk masalah tersebut.</b></p>
+  <p><b>Website adalah solusinya.</b></p>
 </section>
 
 <!-- PROJECT -->
@@ -115,37 +121,57 @@
   <div class="project-container">
 
     <div class="project-card">
-      <img src="fortpolio.jpg.png" class="project-img">
+      <img src="coffe.jpg" class="project-img">
       <h3>Website Coffee Shop</h3>
-      <p>Menampilkan menu kopi, lokasi, dan order WhatsApp.</p>
+      <p>Menu kopi + order WhatsApp</p>
     </div>
 
     <div class="project-card">
       <img src="landing page.jpg.png" class="project-img">
-      <h3>Website Promosi Produk UMKM</h3>
-      <p>Halaman promosi untuk meningkatkan penjualan produk.</p>
+      <h3>Landing Page Produk</h3>
+      <p>Untuk meningkatkan penjualan</p>
+    </div>
+
+    <div class="project-card">
+      <img src="fortpolio.jpg.png" class="project-img">
+      <h3>Website Profil</h3>
+      <p>Untuk branding bisnis</p>
     </div>
 
     <div class="project-card">
       <img src="uidesign.jpg.png" class="project-img">
-      <h3>Website Profil Bisnis</h3>
-      <p>Menampilkan informasi bisnis agar lebih profesional.</p>
-    </div>
-
-    <div class="project-card">
-      <img src="coffe.jpg" class="project-img">
-      <h3>Website Coffee Shop Modern</h3>
-      <p>Website modern dengan tampilan clean dan fitur order.</p>
+      <h3>UI Design</h3>
+      <p>Tampilan modern & clean</p>
     </div>
 
   </div>
+</section>
 
-  <!-- CTA Tengah -->
-  <div class="cta-mid">
-    <h2>Tertarik membuat website seperti ini?</h2>
-    <a href="https://wa.me/6283128557385" class="cta-big">
-      Chat WhatsApp Sekarang
-    </a>
+<!-- CTA -->
+<section>
+  <h2>Tertarik membuat website seperti ini?</h2>
+
+  <a href="https://wa.me/6283128557385" class="cta-big">
+    Chat WhatsApp Sekarang
+  </a>
+</section>
+
+<!-- PRICING -->
+<section>
+  <h2>Paket Website</h2>
+
+  <div class="pricing">
+    <h3>Basic - 500K</h3>
+    <p>✔ 1 halaman</p>
+    <p>✔ Mobile friendly</p>
+    <p>✔ Tombol WhatsApp</p>
+  </div>
+
+  <div class="pricing">
+    <h3>Pro - 1 Juta</h3>
+    <p>✔ Multi halaman</p>
+    <p>✔ Desain premium</p>
+    <p>✔ SEO dasar</p>
   </div>
 
 </section>
@@ -174,12 +200,9 @@
   </div>
 </section>
 
-<!-- CTA BESAR -->
+<!-- CTA FINAL -->
 <section>
-  <h2>Siap meningkatkan bisnis Anda dengan website?</h2>
-  <p>Saya siap membantu membuat website profesional untuk bisnis Anda.</p>
-
-  <p><b>Promo: Gratis konsultasi & revisi desain</b></p>
+  <h2>Siap meningkatkan bisnis Anda?</h2>
 
   <a href="https://wa.me/6283128557385" class="cta-big">
     Konsultasi Gratis Sekarang
@@ -189,15 +212,14 @@
 <!-- CONTACT -->
 <section>
   <h2>Hubungi Saya</h2>
-  <p>Silakan hubungi saya untuk konsultasi gratis.</p>
 
-  <a href="https://wa.me/6283128557385" class="cta-big">
+  <a href="https://wa.me/6283128557385" class="btn">
     Chat WhatsApp
   </a>
 
   <br><br>
 
-  <a href="https://instagram.com/hendriyanto9" target="_blank" class="cta-big">
+  <a href="https://instagram.com/hendriyanto9" class="btn">
     Instagram
   </a>
 </section>
@@ -207,4 +229,4 @@
 </footer>
 
 </body>
-  </html>
+      </html>
